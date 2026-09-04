@@ -81,11 +81,22 @@ mkdir "gfx/loadingscreens"
 mkdir "gfx/models"
 mkdir "gfx/stations"
 mkdir "gfx/texticons"
-#echo "
-#test
-#test
-#test
-#" > gfx/hoi4_icon_bmp_goes_here.txt
+echo "
+          # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+        #                                                                                        #
+        #      This is a documatation file, you don't need to read or leave this in the mod.     #
+        #      This file is meant for being a helpful reminder or for beginners                  #
+        #      who need information about a folders/files given reason.                          #
+        #      Eitherway, you may delete this whenever you desire.                               #
+        #                                                                                        #
+          # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+    -Basics-
+1. The desktop icon can be altered here, the main folder for "gfx/texticons". similar system that works with changing the mod's thumbnail.
+
+    -Settings/Recommendations-
+^--> 1.  
+" > gfx/texticons_and_icons.txt
 
 mkdir "history/"
 mkdir "history/countries"
@@ -126,21 +137,44 @@ delete this file for EPIC optimization.
 " > Installation_README.txt
 
 echo "
----This is a documatation file, you don't need to read or leave this in the mod. This usage is meant for being a helpful reminder or for beginners who need better understand of a given folders reason. Eitherway, you may delete this whenever you desire.---
+          # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+        #                                                                                        #
+        #      This is a documatation file, you don't need to read or leave this in the mod.     #
+        #      This file is meant for being a helpful reminder or for beginners                  #
+        #      who need better understand of a folders given reason.                             #
+        #      Eitherway, you may delete this whenever you desire.                               #
+        #                                                                                        #
+          # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
--Basics-
-Thumbnails need to be a one-to-one ratio (1:1) for any modfront to recognize (e.g. Steam workshop, Paradox mods.) the image and place it as the
+    -Basics-
+1. Thumbnails need to be a one-to-one ratio (1:1) for any modfront to recognize (e.g. Steam workshop, Paradox mods.) the image and place it as the
 mods thumbnail.
 
--Settings/recommendations-
-minimum Image size must be 500x500 pixels for it to fully formulize into whatever will hold the thumbnail with the maximum being 600x600 pixels.
+    -Settings/recommendations-
+^--> 1. minimum Image size must be 500x500 pixels for it to fully formulize into whatever will hold the thumbnail with the maximum being 600x600 pixels.
 " > thumbnail_workings.txt
 
 echo "
----This is a documatation file, you don't need to read or leave this in the mod. This usage is meant for being a helpful reminder or for beginners who need better understand of a given folders reason. Eitherway, you may delete this whenever you desire.---
+          # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+        #                                                                                        #
+        #      This is a documatation file, you don't need to read or leave this in the mod.     #
+        #      This file is meant for being a helpful reminder or for beginners                  #
+        #      who need better understand of a folders given reason.                             #
+        #      Eitherway, you may delete this whenever you desire.                               #
+        #                                                                                        #
+          # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-Here are the general links one would use to figure out the needed parameters for any modification of a mod to work with the Hoi4 game engine:
-bah
-bah
-bah
-" > general_doc_links.txt
+    -Some general links for Hoi4 modding basics-
+  https://hoi4.paradoxwikis.com/Modding
+  https://docs.google.com/presentation/d/1wbQs1RKtmMx2X1RHk2Nfgq8h8yUHMMbBZYR8lRlb-Dg/edit?slide=id.g9f93b3c429_0_1#slide=id.g9f93b3c429_0_1  # How to Mod Hearts of Iron IV
+  ah
+
+    -Video links-
+  https://www.youtube.com/watch?v=NFt8_52iSBM&t=2s # Absolutely no one..  
+  https://www.youtube.com/watch?v=E7zIU3L2eUs&list=PL6EAZcF5cWbg57Srq6BTVvguMl6YfP9pG # Offical beginner Hoi4 modding guide (because they can't and wont fix their own [.]sh)
+  https://www.youtube.com/watch?v=vU4_5X1JEbM&list=PL6EAZcF5cWbiwdGsdZs-C3o6-uwgD4RKs # Offical 'intermediate' Hoi4 modding guide (I put it in quotes because that's just what it's named)
+  https://www.youtube.com/watch?v=f2iBYsL6Hxo&list=PLt_7vUaEvaGTJ0ISBqY2v4EyfmPALiVS7 # Basic Modding Lessons (very old, but could suffice in helpping a little, don't rely on it.)
+    
+    -Uncatagorized-
+  https://github.com/MrBlazzar/HOI4-VSCode-User-Snippets
+" > hoi4_modding_links.txt
