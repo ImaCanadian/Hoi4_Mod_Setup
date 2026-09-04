@@ -13,7 +13,9 @@ First start off by entering into your console (Your OS's shell) or placing the .
 
 Second and last, is to launch the .sh file by any means possible and let the code do its thing.
 
-Now you should have a fully filled mod compacted with the major folders that most large-scale mods would need. You can always delete the ones unwanted.
+Any preexisting folders will not be replaced by this script, and hopefully the .txt files wont be override other files. Although it is a good idea to backup your files just in case (a.k.a. remember to backup your files!)
+
+Now you should have a fully filled mod folder compacted with the major folders that most large-scale mods would need. You can always delete the ones unwanted.
 
 # Specialty's
 
