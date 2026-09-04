@@ -1,6 +1,5 @@
 #!/bin/bash
-#set -h # ???
-set -x # shows process of code in the console {?}
+set -x
 
 mkdir "common"
 mkdir "common/bookmarks"
@@ -176,7 +175,11 @@ mkdir "sound/gui"
 mkdir "sound/idea"
 
 #mkdir "templates/"
-mkdir "testing/" # meant for normal tests during mod development, you may choose to remove this later.
+mkdir "testing/"
+echo "
+This is a folder just for direct testing of your Hoi4 mod, you don't need this if you don't plan to test anything.
+" > Testing_README.txt
+
 echo "
 This is the file for which you will add any important or general information for downloading your particular mod.
 This is obviously meant for helping one for if they wish to download and mod hoi4 MANUALLY, so if you care then continue with this file, if not
